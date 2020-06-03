@@ -12,3 +12,5 @@ The opkg source.list is targeting the same website so all packages present there
 Some updates will be released when I have time and/or when something new will be available in source.
 
 http://www.73connection.com/openwrt/targets/ar71xx/tiny/openwrt-19.07-r11081-6a89098935-ar71xx-tiny-tl-mr3020-v1-squashfs-sysupgrade.bin
+
+Feel free to contact me ;)
