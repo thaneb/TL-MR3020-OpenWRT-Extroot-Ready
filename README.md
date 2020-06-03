@@ -15,7 +15,7 @@ You can also find /etc/connect-wifi.sh which can help you to connect to your loc
 * swap activated in kernel
 
 Some updates will be released when I have time and/or when something new will be available in source.
-
+Release available 19.0 r11081
 http://www.73connection.com/openwrt/targets/ar71xx/tiny/
 
 Feel free to contact me ;)
