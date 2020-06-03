@@ -1,4 +1,4 @@
-# MR3020-OpenWRT-19-07-ExtrootReady
+# OpenWRT 19.07 extroot ready build for the TP-Link MR3020 v1.x
 
 Find a extroot ready build of Openwrt 19.07 for the TL-MR3020 v1.x
 Easy to flash, Luci not included in order to fit the embedded nand memory size.
