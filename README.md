@@ -12,7 +12,7 @@ You can also find /etc/1-newbiescripts/3-wifi-client-connect.sh which can help y
 * no ip v6
 * usb mass storage
 * /etc/1-newbiescripts/1-extroot.sh to format and extroot rootfs to sda1
-* /etc/1-newbiescripts/2-opkg-ramsaver.sh to use your new disk spaec instead of ram to store packages list
+* /etc/1-newbiescripts/2-opkg-ramsaver.sh to use your new disk space instead of ram to store packages list
 * /etc/1-newbiescripts/3-wifi-client-connect.sh that you can edit with vi to easily connect your MR3020 to your wireless network
 * swap activated in kernel
 
