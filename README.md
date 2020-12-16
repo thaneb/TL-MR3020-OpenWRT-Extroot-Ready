@@ -21,4 +21,7 @@ Some updates will be released when I have time and/or when something new will be
 Release available 19.0 r11081
 http://www.73connection.com/openwrt/targets/ar71xx/tiny/
 
+Others files
+http://www.73connection.com/openwrt/targets/
+
 Feel free to contact me ;)
