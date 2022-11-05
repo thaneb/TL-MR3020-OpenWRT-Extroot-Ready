@@ -19,6 +19,7 @@ You can also find /etc/1-newbiescripts/3-wifi-client-connect.sh which can help y
 
 Some updates will be released when I have time and/or when something new will be available in source.
 Release available 19.0.7 r11431-83b0e20711
+
 http://www.73connection.com/openwrt/targets/ar71xx/tiny/
 
 Others files
