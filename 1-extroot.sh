@@ -12,7 +12,7 @@ echo ""
 echo "Available target devices in your system are :"
 block info | grep -o -e "/dev/sd\S*"
 read -p "Which drive do we set up as extroot ? (ex: /dev/sda1) " DRIVE_TARGET
-read -p "Do we need to format it ? (answer by yes or not) " MODE_TARGET
+read -p "Do we need to format it ? (answer by yes or no) " MODE_TARGET
 
 ## Test the formating request and format if needed
 
@@ -31,9 +31,9 @@ uci set fstab.overlay.uuid="${UUID}"
 echo ${UUID}
 uci set fstab.overlay.target="/overlay"
 uci commit fstab
-echo "mount $DRIVE_TARGET /mnt"
+mount $DRIVE_TARGET /mnt
 cp -a -f /overlay/. /mnt
-echo "umount /mnt"
+umount /mnt
 echo "###############################################"
 echo "*******Drive $DRIVE_TARGET ready, rebooting********"
 echo "###############################################"
