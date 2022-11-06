@@ -10,11 +10,17 @@ Default wifi key: sup3rMR3020
 /etc/1-extroot.sh will help you format your usb device /dev/sdaX as a ext4 filesystem, create and copy the overlay, then update fstab and finally reboot.
 If your usb devices has a sdaX+1 (second partition in the map) formatted as Linux swap (can be done through gparted on any linux os), you can activated it as swap through the command: swapon /dev/sdaX 
 
+-> ./etc/1-extroot.sh
 
 #2 Save some ram with clearing opkg caches files /etc/2-opkg-ramsaver.sh
 
+-> ./etc/2-opkg-ramsaver.sh
+
 #3 Wifi connect helper /etc/3-wifi-client-connect.sh
-You can also find /etc/3-wifi-client-connect.sh which can help you to connect to your local wifi network in order to install Luci and other packages you may want or need (you still need to edit it with your network bssid , ssid and key).
+You can also find /etc/3-wifi-client-connect.sh which can help you to connect to your local wifi network in order to install Luci and other packages you may want or need (you still need to edit it with your network ssid and key).
+
+-> vi /etc/3-wifi-client-connect.sh
+-> ./etc/3-wifi-client-connect.sh
 
 * The opkg source.list is targeting the same website so all packages present there are fully compatible with this build (all build at same time).
 * no ip v6
