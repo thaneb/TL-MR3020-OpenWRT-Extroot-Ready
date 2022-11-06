@@ -6,8 +6,8 @@ Default wifi SSID: OW-MR3020
 Default wifi key: sup3rMR3020
 
 
-# 1 Extroot script /etc/1-extroot-sda1.sh
-/etc/1-extroot-sda1.sh will help you format your usb device /dev/sdaX as a ext4 filesystem, create and copy the overlay, then update fstab and finally reboot.
+# 1 Extroot script /etc/1-extroot.sh
+/etc/1-extroot.sh will help you format your usb device /dev/sdaX as a ext4 filesystem, create and copy the overlay, then update fstab and finally reboot.
 If your usb devices has a sdaX+1 (second partition in the map) formatted as Linux swap (can be done through gparted on any linux os), you can activated it as swap through the command: swapon /dev/sdaX 
 
 
