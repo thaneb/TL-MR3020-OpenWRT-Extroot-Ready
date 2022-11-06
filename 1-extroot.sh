@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 clear
 echo "* * * * * * * * * * * * * * * * * * * * * * * * * * *"
 echo "* * * *  Welcome to OpenWRT ExtRoot Automator * * * *"
