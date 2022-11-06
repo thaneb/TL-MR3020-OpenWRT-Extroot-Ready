@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 uci set wireless.radio0.disabled=0
 uci commit wireless
 wifi up
@@ -8,7 +8,6 @@ uci commit
 uci add_list firewall.@zone[1].network='wlan'
 uci commit
 uci add wireless wifi-iface
-uci set wireless.@wifi-iface[-1].bssid=0x:x8:x3:x6:x0:fx #<--bssid_MAC_AD_OF_YOUR_AP/Router
 uci set wireless.@wifi-iface[-1].device=radio0
 uci set wireless.@wifi-iface[-1].ssid=NAME_OF_YOUR_NETWORK
 uci set wireless.@wifi-iface[-1].encryption=psk2
@@ -17,4 +16,3 @@ uci set wireless.@wifi-iface[-1].mode=sta
 uci set wireless.@wifi-iface[-1].network=wlan
 uci commit
 /etc/init.d/network restart
-
