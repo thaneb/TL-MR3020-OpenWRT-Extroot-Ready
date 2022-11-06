@@ -1,3 +1,5 @@
+BROKEN (bootable but overlay creation issue), unable to getr all required stuff on the firmware, still working on it.
+
 # OpenWRT 19.07 extroot ready build for the TP-Link MR3020 v1.x
 
 Here you will find a extroot ready build of Openwrt 19.07 for the TL-MR3020 v1.x
@@ -21,8 +23,5 @@ Some updates will be released when I have time and/or when something new will be
 Release available 19.0.7 r11431-83b0e20711
 
 http://www.73connection.com/openwrt/targets/ar71xx/tiny/
-
-Others files
-http://www.73connection.com/openwrt/targets/
 
 Feel free to contact me ;)
