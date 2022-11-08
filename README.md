@@ -9,7 +9,8 @@ Default wifi key: sup3rMR3020
 # 0 : Wifi connect helper /etc/0-wifi-client-connect.sh
 Help to connect your wifi network, display available networks, input the target network name (without any "" or ''), then input the key, and you're connected!
 
--> ./etc/0-wifi-client-connect.sh
+-> cd /etc
+-> ./0-wifi-client-connect.sh
 
 # 1 : Extroot script /etc/1-extroot.sh
 /etc/1-extroot.sh will:
@@ -19,7 +20,8 @@ Help to connect your wifi network, display available networks, input the target 
 - ask you if and which partition to use as system SWAP
 - reboot
 
--> ./etc/1-extroot.sh
+-> cd /etc
+-> ./1-extroot.sh
 
 * The opkg source.list is targeting the same website so all packages present there are fully compatible with this build (all build at same time).
 * no ip v6
