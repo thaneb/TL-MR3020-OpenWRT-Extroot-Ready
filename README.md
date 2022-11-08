@@ -6,13 +6,13 @@ Default wifi SSID: OW-MR3020
 Default wifi key: sup3rMR3020
 
 
-# 0 : Wifi connect helper /etc/0-wifi-client-connect.sh
+# Wifi connect helper /etc/0-wifi-client-connect.sh
 Help to connect your wifi network, display available networks, input the target network name (without any "" or ''), then input the key, and you're connected!
 
 -> cd /etc
 -> ./0-wifi-client-connect.sh
 
-# 1 : Extroot script /etc/1-extroot.sh
+# Extroot script /etc/1-extroot.sh
 /etc/1-extroot.sh will:
 - ask you if you wish to save RAM by removing opkg temp files from it
 - display available usb partition
