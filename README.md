@@ -1,6 +1,11 @@
 # OpenWRT 19.07 extroot ready build for the TP-Link MR3020 v1.x
+
+http://www.73connection.com/openwrt/targets/ar71xx/tiny/
+
 Here you will find a extroot ready build of Openwrt 19.07 for the TL-MR3020 v1.x
 Easy to flash, Luci and ipv6 not included in order to fit the stock embedded nand memory size.
+Some updates and new packages will be released when available.
+Release available 19.0.7 r11431-83b0e20711
 
 Default wifi SSID: OW-MR3020
 Default wifi key: sup3rMR3020
@@ -22,10 +27,5 @@ Help to connect your wifi network, display available networks, input the target 
 
 -> cd /etc
 -> ./1-extroot.sh
-
-Some updates and new packages will be released when available.
-Release available 19.0.7 r11431-83b0e20711
-
-http://www.73connection.com/openwrt/targets/ar71xx/tiny/
 
 Feel free to contact me ;)
