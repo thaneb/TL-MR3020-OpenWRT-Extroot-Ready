@@ -1,0 +1,6 @@
+uci set wireless.@wifi-device[0].disabled="0"
+uci set wireless.@wifi-iface[0].disabled="0"
+uci set wireless.@wifi-iface[0].ssid="OW-MR3020"
+uci set wireless.@wifi-iface[0].key="sup3rMR3020"
+uci set wireless.@wifi-iface[0].encryption="psk2"
+uci commit wireless
