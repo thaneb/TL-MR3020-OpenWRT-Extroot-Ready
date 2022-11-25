@@ -7,7 +7,7 @@ Easy to flash, Luci and ipv6 not included in order to fit the stock embedded nan
 Some updates and new packages will be released when available.
 Release available 19.0.7 r11431-83b0e20711
 
-#Default lan IP: 192.168.6.1
+#Default lan IP: 192.168.1.1
 #Default wifi SSID: OW-MR3020
 #Default wifi key: sup3rMR3020
 
