@@ -11,6 +11,8 @@ Release available 19.0.7 r11431-83b0e20711
 #Default wifi SSID: OW-MR3020
 #Default wifi key: sup3rMR3020
 
+TIPS WINDOWS 11, to ssh use:
+ssh -v -oHostKeyAlgorithms=+ssh-rsa username@ipaddress
 
 # Wifi connect helper: /extrooter/0-wifi-client-connect.sh
 Help to connect your wifi network, display available networks, input the target network name (without any "" or ''), then input the key, and you're connected!
