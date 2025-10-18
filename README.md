@@ -31,8 +31,8 @@ Script that will:
 -> cd /extrooter
 -> ./1-extroot.sh
 
-Extra-step for Luci, after reboot,
-opkg update
-opkg install luci-ssl
+Extra-step for Luci, after reboot:
+
+opkg update && opkg install luci-ssl
 
 Feel free to contact me ;)
